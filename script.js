@@ -47,3 +47,13 @@ card.addEventListener("dblclick", function(){
     },1000)
     // heart.style.color ="red";
 })
+
+
+let mouseEvent = document.getElementById("mouseEvent");
+let cursor = document.getElementById("cursor");
+
+mouseEvent.addEventListener("mousemove", function(dots){
+    cursor.style.left = dots.x+"px"
+    cursor.style.top = dots.y+"px"
+    console.log(dots.y)
+})

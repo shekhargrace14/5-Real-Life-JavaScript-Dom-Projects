@@ -4,7 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #333333;
+}
+
 /* Global starts here  */
+h1{
+    color: white;
+    font-size: 120px;
+    text-transform: uppercase;
+}
 
 h2{
     color: white;
@@ -19,9 +28,7 @@ h5{
 }
 .container{
     width: 100%;
-    height: 100vh;
-
-    background-color: cornflowerblue;
+    height: 80vh;
 }
 .row{
     width: 100%;
@@ -106,3 +113,19 @@ button{
 .active{
     display: block;
 }
+
+
+/* project 3 starts here  */
+
+.mouserEvent{
+    position: relative;
+}
+
+.cursor{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+/* project 3 ends here   */
